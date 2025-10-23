@@ -13,17 +13,91 @@
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Depistini",
-        "description": "Application mobile de sensibilisation au dépistage du cancer du sein",
-        "applicationCategory": "HealthApplication",
-        "operatingSystem": "Android, iOS",
-        "offers": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://depistini.netlify.app/#organization",
+          "name": "Depistini",
+          "url": "https://depistini.netlify.app/",
+          "logo": "https://depistini.netlify.app/logo.png",
+          "description": "Application mobile de sensibilisation au dépistage du cancer du sein",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+216-55-122-728",
+            "contactType": "customer service",
+            "email": "azizlouhichi81@gmail.com"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Depistini",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "Android, iOS",
+          "description": "Application mobile de sensibilisation au dépistage du cancer du sein avec contenu éducatif validé par des professionnels de santé",
+          "url": "https://depistini.netlify.app/",
+          "author": {
+            "@type": "Organization",
+            "@id": "https://depistini.netlify.app/#organization"
+          },
+          "offers": {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "USD"
+          },
+          "featureList": "Chat avec des professionnels de santé, Calendrier personnel de suivi, Contenu éducatif validé, Quiz interactifs, Plateforme communautaire"
         }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Comment parler à un professionnel de santé ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utilisez la section 'Chat' pour discuter directement avec nos experts en santé."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les vidéos sont-elles vérifiées par des médecins ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, tout notre contenu est validé par des professionnels de santé qualifiés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment fonctionnent les rappels ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous recevrez des notifications pour vos auto-examens et rendez-vous médicaux via le calendrier personnel."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Breadcrumb Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://depistini.netlify.app/"
+        }
+      ]
     }
     </script>
 </head>
