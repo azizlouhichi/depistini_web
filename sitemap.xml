@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://depistini.netlify.app/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://depistini.netlify.app/pages/about</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://depistini.netlify.app/pages/about.html</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://depistini.netlify.app/pages/features</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://depistini.netlify.app/pages/features.html</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://depistini.netlify.app/pages/screenshots</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://depistini.netlify.app/pages/screenshots.html</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://depistini.netlify.app/pages/contact</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://depistini.netlify.app/pages/contact.html</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>
